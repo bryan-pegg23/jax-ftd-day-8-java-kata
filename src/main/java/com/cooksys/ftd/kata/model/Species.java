@@ -23,6 +23,7 @@ public class Species implements Comparable<Species> {
 				&& (Math.abs(this.growthModel.getLeavesEatenToWeight() - growthModel.getLeavesEatenToWeight())
 						/ this.growthModel.getLeavesEatenToWeight()) < this.getTolerance());
 	}
+	
 
 	@Override
 	public int compareTo(Species that) {
